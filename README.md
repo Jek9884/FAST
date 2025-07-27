@@ -80,25 +80,25 @@ To create a dataset for the highway environment, run:
    python create_dataset.py
    ```
 
-To train RL model without transfer learning, use:
+To train RL model without transfer learning, run:
 
    ```bash
    python tune_sac.py
    ```
 
-To train RL model with transfer learning, use:
+To train RL model with transfer learning, run:
 
    ```bash
    python transfer.py
    ```
 
-To tune RL model optimizing both SAC and transfer hyperparameters, use:
+To tune RL model optimizing both SAC and transfer hyperparameters, run:
 
    ```bash
    python transfer.py
    ```
 
-N.B. all the scripts require some parameters, please check them using:
+N.B. all the scripts require some parameters, please check them running:
 
    ```bash
    python "SCRIPT_NAME".py -h
