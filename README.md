@@ -23,6 +23,8 @@ FAST – Framework for Adaptive Similarity-based Transfer, leverages visual fram
   <em>Illustration of the implementation of the FAST framework used in this work. Given a set of pre-trained policies the agent exploit these policies to learn a new complex task.</em>
 </p>
 
+Recordings of the best-performing models are available [here](https://github.com/Jek9884/FAST-Video-Results).
+
 ---
 
 # Repository Structure
