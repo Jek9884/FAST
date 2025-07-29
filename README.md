@@ -2,7 +2,7 @@
   <h1 align="center">FAST – Framework for Adaptive Similarity-based Transfer</h1>
 </div>
 
-This is the implementation of the paper titled: ["FAST: Similarity-based Knowledge Transfer for Efficient Policy Learning"]() accepted by IEEE Conference on Games (CoG) 2025.
+This is the implementation of the paper titled: ["FAST: Similarity-based Knowledge Transfer for Efficient Policy Learning"](https://arxiv.org/abs/2507.20433) accepted by IEEE Conference on Games (CoG) 2025.
 
 ---
 
@@ -120,3 +120,18 @@ We added an environment: racetrack-complex-v0. Additionally we changed the rewar
 ## stable-baselines3
 We modified stable-baselines3's SAC algorithm to adapt it to perform the designed transfer learning pipeline.
 
+## Citation
+
+Please consider citing us.
+
+```bibtex
+@misc{capurso2025fast,
+      title={FAST: Similarity-based Knowledge Transfer for Efficient Policy Learning}, 
+      author={Alessandro Capurso and Elia Piccoli and Davide Bacciu},
+      year={2025},
+      eprint={2507.20433},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.20433}, 
+}
+```
